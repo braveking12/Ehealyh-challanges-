@@ -14,4 +14,3 @@
 ![Screenshot (27)](https://user-images.githubusercontent.com/114780375/203180676-b8db51d4-59c3-4e79-a1f7-2c28ed414ca8.png)
 ![Screenshot (28)](https://user-images.githubusercontent.com/114780375/203180681-216860ea-7588-45ef-8ecb-418154758c98.png)
 
-![Uploading Screenshot (14).png…]()
