@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Create a solar system</title>
+        <style>
+            body {
+                background-color: black;
+                padding: 10px;
+            }
+            .planet {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                text-align: center;
+                padding: 10px;
+                position: relative;
+            }
+            .moon {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background: rgb(237, 237, 237);
+            }
+        </style>
+    </head>
+    <body>
+ 
+    
+    <script>
+        var divEls = document.createElement("div");{
+            divEls.style.backgroundColor ="white";
+            divEls.className ="planet";
+            divEls.classList.add("planet");
+            document.body.appendChild(divEls);
+
+        }
+
+        var moonEls = document.createElement("div");{
+            moonEls.className ="moon";
+            moonEls.classList.add("moon");
+            document.body.appendChild(moonEls);
+        }
+            var moon2 = document.createElement("div");{
+            moon2.className="moon";
+            moon2.classList.add("moon");
+            moon2.style.marginLeft="3%";
+            moon2.style.marginTop ="0.3%";
+            document.body.appendChild(moon2);
+           }
+         var moon3 = document.createElement("div");{
+            moon3.className="moon";
+            moon3.classList.add("moon");
+            moon3.style.marginLeft="5.5%";
+            moon3.style.marginTop ="0.3%";
+            document.body.appendChild(moon3);
+           }
+    var planet = document.createElement("div");{
+        planet.style.backgroundColor="blue";
+        planet.className="planet";
+        planet.classList.add("planet");
+        document.body.appendChild(planet);
+        planet.style.marginLeft ="30%";
+
+        var moon1 = document.createElement("div");{
+            moon1.className="moon";
+            moon1.classList.add("moon");
+            moon1.style.marginLeft="28%";
+            document.body.appendChild(moon1);
+
+        }
+         var moon4 = document.createElement("div");{
+            moon4.className="moon";
+            moon4.classList.add("moon");
+            moon4.style.marginLeft="30.5%";
+            moon4.style.marginTop ="0.3%";
+            document.body.appendChild(moon4);
+           }
+    }
+    var planet2 = document.createElement("div");{
+        planet2.style.backgroundColor="red";
+        planet2.className="planet2";
+        planet2.classList.add("planet");
+        planet2.style.marginLeft="60%";
+        document.body.appendChild(planet2);
+
+        var moon5 = document.createElement("div");{
+            moon5.className="moon";
+            moon5.classList.add("moon");
+            moon5.style.marginLeft ="58%";
+            document.body.appendChild(moon5);
+        }
+    }
+
+        
+
+    </script>
+    </body>
+</html>
